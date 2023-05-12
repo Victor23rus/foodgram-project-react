@@ -5,10 +5,10 @@ from users.models import Follow, User
 
 @admin.register(User)
 class UserAmin(UserAdmin):
-    list_display = ('username', 'email', 'first_name', 'last_name')
-    list_filter = ('username', 'email')
+    list_display = ("username", "email", "first_name", "last_name")
+    list_filter = ("username", "email")
 
 
 @admin.register(Follow)
 class FollowAdmin(admin.ModelAdmin):
-    list_display = ('user', 'author')
+    list_display = ("user", "author")
