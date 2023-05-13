@@ -1,4 +1,4 @@
-version: '2.17.2'
+version: ''3.3''
 
 services:
   
@@ -24,7 +24,7 @@ services:
       - ../frontend/:/app/result_build/
   
   nginx:
-    image: nginx:1.19.3
+    image: nginx:1.23.3-alpine
     ports:
       - "80:80"
     volumes:
