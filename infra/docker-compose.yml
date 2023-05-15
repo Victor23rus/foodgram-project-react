@@ -43,5 +43,8 @@ volumes:
   static_value:
   media_value:
   postgres:
+<<<<<<< HEAD
   docs:
   
+=======
+>>>>>>> d629b7f568259e4b9249ed8d8880ca21563944b8
